@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "ts-node hello.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
