@@ -1,5 +1,15 @@
-console.log("heelo");
+// import person from "./hello"
+// console.log(person)
 
-var a=1;
-var b=3;
-console.log(a)
+let {person,data,sayHello} =require('./hello')
+
+var personData =require('./person')
+
+
+
+if(sayHello){
+  console.log(person)
+  console.log(data)
+
+  console.log(personData)
+}

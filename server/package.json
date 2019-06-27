@@ -4,9 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "ts-node hello.ts"
+    "start": "ts-node hello.ts",
+    "watch":"nodemon app.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
